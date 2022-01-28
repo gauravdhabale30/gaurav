@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container {
+  max-width: 1300px;
+  max-width: 0 auto;
+  padding: 0 3rem;
+}
+.header {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+.icon {
+  width: 40%;
+  color: #0061f2;
+}
+.btn1 {
+  text-align: right;
+  justify-content: right;
+  margin: auto;
+  background-color: #0061f2;
+}
+.hero {
+  width: 100%;
+  display: flex;
+}
+.text {
+  width: 50%;
+}
+.img {
+  width: 50%;
+  padding-left: 8rem;
+  padding-bottom: 8rem;
+}
+.page-header {
+  font-size: 2.5rem;
+}
+.page-text {
+  font-size: 1.15rem;
+}
+.information {
+  margin-top: 2rem;
+  display: flex;
+  text-align: center;
+}
+.logo-text {
+  width: 33%;
+  gap: 1rem;
+}
+.socialmedia {
+  width: 100%;
+  display: flex;
+}
+.google {
+  width: 50%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.features {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  margin: auto;
+}
+.feature-details {
+  display: flex;
+  text-align: center;
+}
+.feature1 {
+  width: 33%;
+}
